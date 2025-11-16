@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LifeCare Hospital</title>
+
+    <!-- LINK CSS FILE -->
+    <link rel="stylesheet" href="lifecare.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <div class="header">
+      <div class="logo">LifeCare Hospital</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#departments">Departments</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#services">Services</a>
+        <a href="#appointment">Appointment</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Your Health, Our Priority</h1>
+        <p>We provide world-class medical services</p>
+        <a class="btn glow" href="#appointment">Book Appointment</a>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Our Hospital</h2>
+      <p>
+        LifeCare Hospital provides world-class medical services with modern
+        facilities, experienced doctors, advanced lab tests, and emergency care.
+      </p>
+      <br />
+      <p><b>Opening Hours: 9:00 AM – 8:00 PM</b></p>
+    </section>
+
+    <!-- DEPARTMENTS -->
+    <section id="departments">
+      <h2>Our Departments</h2>
+      <div class="departments">
+        <div class="card">General Medicine</div>
+        <div class="card">Pediatrics</div>
+        <div class="card">Dental Care</div>
+        <div class="card">Orthopedics</div>
+        <div class="card">Gynecology</div>
+        <div class="card">Dermatology</div>
+        <div class="card">ENT</div>
+        <div class="card">Eye Care</div>
+      </div>
+    </section>
+
+    <!-- DOCTORS -->
+    <section id="doctors">
+      <h2>Our Doctors</h2>
+      <div class="doctors">
+        <div class="card">
+          <img
+            class="doctor-img"
+            src="https://images.unsplash.com/photo-1537368910025-700350fe46c7"
+          />
+          <h3>Dr. Rakesh Sharma</h3>
+          <p>MBBS, MD – General Physician</p>
+        </div>
+
+        <div class="card">
+          <img
+            class="doctor-img"
+            src="https://images.unsplash.com/photo-1550831107-1553da8c8464"
+          />
+          <h3>Dr. Priya Kulkarni</h3>
+          <p>BDS – Dental Specialist</p>
+        </div>
+
+        <div class="card">
+          <img
+            class="doctor-img"
+            src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb"
+          />
+          <h3>Dr. Meera Rao</h3>
+          <p>MBBS, MS – Gynecologist</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="services">
+        <div class="card">24/7 Emergency</div>
+        <div class="card">Pharmacy</div>
+        <div class="card">Blood Test / Lab</div>
+        <div class="card">X-Ray & ECG</div>
+        <div class="card">Vaccination</div>
+        <div class="card">Health Check-up Packages</div>
+      </div>
+    </section>
+
+    <!-- APPOINTMENT -->
+    <section id="appointment">
+      <h2>Book an Appointment</h2>
+      <form>
+        <input type="text" placeholder="Enter Your Name" required />
+        <input type="text" placeholder="Mobile Number" required />
+        <input type="email" placeholder="Email" required />
+
+        <select required>
+          <option>Select Department</option>
+          <option>General Medicine</option>
+          <option>Dental</option>
+          <option>Orthopedics</option>
+          <option>Gynecology</option>
+        </select>
+
+        <select required>
+          <option>Select Doctor</option>
+          <option>Dr. Rakesh Sharma</option>
+          <option>Dr. Priya Kulkarni</option>
+          <option>Dr. Meera Rao</option>
+        </select>
+
+        <input type="date" required />
+        <textarea placeholder="Any message..." rows="4"></textarea>
+
+        <button type="submit">Submit Appointment</button>
+      </form>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>📍 Address: LifeCare Hospital, Main Road, City</p>
+      <p>📞 Phone: +91 98765 43210</p>
+      <p>📧 Email: lifecare@gmail.com</p>
+    </section>
+
+    <footer>© 2025 LifeCare Hospital. All Rights Reserved.</footer>
+  </body>
+</html>
